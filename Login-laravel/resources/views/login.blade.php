@@ -20,10 +20,10 @@
         <div class="container">
             <div class="login-content">
                 <div class="login-form">
-                    <form>
+                    <form action="/login" method="post">
                         <div class="form-group">
                             <label>UserName</label>
-                            <input type="email" class="form-control" placeholder="Email">
+                            <input type="username" class="form-control" placeholder="username">
                         </div>
                         <div class="form-group">
                             <label>Password</label>
